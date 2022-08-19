@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+}
+
+.container {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.title {
+    font-size: 3rem;
+}
+
+.red-text {
+    color: red;
+}
+
+.display {
+    display: flex;
+}
+
+.display-card {
+    text-align: center;
+    border-radius: 5px;
+    padding: 3rem 6rem;
+    color: white;
+    margin: 0 2rem;
+}
+
+.deposit {
+    background-color: darkslateblue;
+}
+
+.withdraw {
+    background-color: coral;
+}
+
+.balance {
+    background-color: cornflowerblue;
+}
+
+.display-card h2 {
+    font-size: 2rem;
+}
+
+.display-card h1 {
+    font-size: 3rem;
+}
+
+.machine {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.input-card {
+    color: white;
+    width: 500px;
+    height: 200px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 2rem;
+    border-radius: 5px;
+
+}
+
+.input-card input {
+    margin: 1rem;
+    width: 80%;
+    height: 20%;
+    font-size: 2rem;
+    text-align: center;
+    outline: none;
+}
+
+.input-card button {
+    font-size: 1rem;
+    padding: 1rem;
+    background-color: khaki;
+    border-radius: 10px;
+    border: none;
+}
+
+.input-card button:hover {
+    background-color: darkkhaki;
+    cursor: pointer;
+}
+
+.input-card button:active {
+    background-color: white;
+}
+
+.deposit-machine {
+    background-color: cadetblue;
+}
+
+.withdraw-machine {
+    background-color: royalblue;
+}

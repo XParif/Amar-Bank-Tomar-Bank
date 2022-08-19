@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bank</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1 class="title">User Account of <span class="red-text">Amar Bank Tomar Bank</span></h1>
+        <div class="display">
+            <div class="display-card deposit">
+                <h2>Deposit</h2>
+                <h1>$<span id="deposit">00</span></h1>
+            </div>
+            <div class="display-card withdraw">
+                <h2>Withdraw</h2>
+                <h1>$<span id="withdraw">00</span></h1>
+            </div>
+            <div class="display-card balance">
+                <h2>Balance</h2>
+                <h1>$<span id="balance">150</span></h1>
+            </div>
+        </div>
+        <div class="machine">
+            <div class="input-card deposit-machine">
+                <h1>Deposit</h1>
+                <input type="text" id="deposit-input">
+                <button id="deposit-btn">Deposit</button>
+            </div>
+            <div class="input-card withdraw-machine">
+                <h1>Withdraw</h1>
+                <input type="text" id="withdraw-input">
+                <button id="withdrawBtn">Withdraw</button>
+            </div>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
